@@ -140,6 +140,7 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.25.1)
+    mini_magick (4.0.2)
     mini_portile (0.6.2)
     minitest (5.4.2)
     multi_json (1.10.1)
@@ -220,6 +221,7 @@ DEPENDENCIES
   fog
   jbuilder (~> 2.0)
   jquery-rails
+  mini_magick
   pg
   rails (= 4.1.4)
   rails_12factor
