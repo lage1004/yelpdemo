@@ -18,7 +18,7 @@ class ReviewsController < ApplicationController
     @review.user_id = current_user.id
     @review.restaurant_id = @restaurant.id
     flash[:notice]= "Review succesfully created." if @review.save
-    respond_with(@review, :location => root_path)
+    respond_with(@review, :location => @restaurant)
   end
 
   def update
